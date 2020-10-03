@@ -9,6 +9,6 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP.git", from: "x.x.x")
+    .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP.git", .upToNextMinor(from: "x.x.x"))
 ]
 ```
