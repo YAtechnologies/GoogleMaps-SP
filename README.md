@@ -1,7 +1,7 @@
 # Google Maps Swift Package
 
 ## Requirements
-* [iOS 9.0](https://wikipedia.org/wiki/IOS_9) or later.
+* [iOS 10.0](https://wikipedia.org/wiki/IOS_10) or later.
 * [Xcode 12.0](https://developer.apple.com/xcode) or later.
 
 ## Build Requirements
