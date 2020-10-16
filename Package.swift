@@ -29,28 +29,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/3.10.0/GoogleMaps.xcframework.zip",
-            checksum: "d22740e1a22c7d48ce9e660a3a4c4773aef121e066354784f9c7aec7a91ce146"
+            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/4.0.0/GoogleMaps.xcframework.zip",
+            checksum: "bcb04ac4b0bffdf53247d1ca43f6ce9de8e5a6361c9507c3f6bb4e50d90adc86"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/3.10.0/GoogleMapsBase.xcframework.zip",
-            checksum: "5523b376dc9e6e39e49a93ed6fedbf1f03330e762ab670aa8d4f0e5fe838a9bc"
+            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/4.0.0/GoogleMapsBase.xcframework.zip",
+            checksum: "7a59265a0691997fd10e55e24432efb156bf3c575e34859234ad211432dcf4b2"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/3.10.0/GoogleMapsCore.xcframework.zip",
-            checksum: "97c0d40c93444c78f4c6a6979bfbb5ac1f762918bdfe9d1c173aacf48d4adba3"
+            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/4.0.0/GoogleMapsCore.xcframework.zip",
+            checksum: "182f49e39c6500ba4209ffe5a6497bfbef47e5591f5bf5e424779081d8077dbf"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/3.10.0/GoogleMapsM4B.xcframework.zip",
-            checksum: "59c42657276f60511417e575b85bb94691843be95b0bb538f08294f644018fab"
+            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/4.0.0/GoogleMapsM4B.xcframework.zip",
+            checksum: "b3c6a9a5b4ed33103f2c664c86c9bb674cf32263debe018cdc75aabd127aab0b"
         ),
         .binaryTarget(
             name: "GooglePlaces",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/3.10.0/GooglePlaces.xcframework.zip",
-            checksum: "00695c6782c2d25f8fa39ae09fdc8f854c4c02d40b3a4cd97fa69d155fac9f3f"
+            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/4.0.0/GooglePlaces.xcframework.zip",
+            checksum: "eda53ce7b98f5a4a8258e1b1365c135b5e7b91d0f8a76589596d4c255f63c3f4"
         )
     ]
 )
