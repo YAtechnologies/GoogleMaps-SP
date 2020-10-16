@@ -4,6 +4,9 @@
 * [iOS 9.0](https://wikipedia.org/wiki/IOS_9) or later.
 * [Xcode 12.0](https://developer.apple.com/xcode) or later.
 
+## Build Requirements
+* [Carthage 0.36.0](https://github.com/Carthage/Carthage) or later.
+
 ## Installation
 - Add the following dependency to your project's `Package.swift`, make sure to replace `"x.x.x"` with the appropriate version number.
 
