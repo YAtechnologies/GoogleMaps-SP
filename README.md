@@ -15,5 +15,16 @@ dependencies: [
     .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP.git", .upToNextMinor(from: "x.x.x"))
 ]
 ```
+
+## Building
+On the project root directory run the following command:
+```bash
+make_xcframework.sh
+```
+
+This will create a directory named `Build` that contains zipped `XCFramework`s.
+
+> The `checksum` file found inside the `Build` directory contains the SHA-256 checksum of the generated `XCFramework` zip files.
+
 ## License
 The **Google Maps iOS SDK** and **Google Places iOS SDK** libraries are the property of Google and are subject to *Google's Terms of Service*. See [LICENSE.google](https://github.com/YAtechnologies/GoogleMaps-SP/blob/main/LICENSE.google) for details.
