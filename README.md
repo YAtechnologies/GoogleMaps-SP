@@ -8,11 +8,11 @@
 * [Carthage 0.36.0](https://github.com/Carthage/Carthage) or later.
 
 ## Installation
-- Add the following dependency to your project's `Package.swift`, make sure to replace `"x.x.x"` with the appropriate version number.
+- Add the following dependency to your project's `Package.swift`.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP.git", .upToNextMinor(from: "x.x.x"))
+    .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP.git", .upToNextMinor(from: "4.1.0"))
 ]
 ```
 
