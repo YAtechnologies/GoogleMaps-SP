@@ -16,6 +16,12 @@ dependencies: [
 ]
 ```
 
+### Known Issues
+- If you use a Google Maps Swift package in an app with extensions, the build system incorrectly embeds the binary dependencies alongside the extension in the PlugIns directory, causing validation of the archived app to fail. (69834549) (FB8761306)
+
+    **Workaround:** Add a scheme post-build action which removes the embedded binaries from the PlugIns directory after the build, e.g. `rm -rf "${TARGET_BUILD_DIR}/${TARGET_NAME}.app"/PlugIns/*.framework`.
+
+
 ## Building
 On the project root directory run the following command:
 ```bash
