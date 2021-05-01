@@ -18,5 +18,8 @@ dependencies: [
 
     **Workaround:** Add a scheme post-build action which removes the embedded binaries from the PlugIns directory after the build, e.g. `rm -rf "${TARGET_BUILD_DIR}/${TARGET_NAME}.app"/PlugIns/*.framework`.
 
+## Sponsor
+If you find this package useful please consider **[STARRING 🌟](https://github.com/YAtechnologies/GoogleMaps-SP/stargazers)** this repository.
+
 ## License
 The **Google Maps iOS SDK** and **Google Places iOS SDK** libraries are the property of Google and are subject to *Google's Terms of Service*. See [LICENSE.google](https://github.com/YAtechnologies/GoogleMaps-SP/blob/main/LICENSE.google) for details.
