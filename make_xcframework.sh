@@ -2,7 +2,18 @@
 
 BUILD_DIRECTORY="Build"
 
-function archive_project() {
+function convert_frameworks_arm64_to_iphonesimulator() {
+  project_name=$1
+  framework_name=$2
+
+  xcrun vtool -arch arm64 \
+    -set-build-version 7 11.0 13.7 \
+    -replace \
+    -output "../Carthage/Build/iOS/$framework_name.framework/$framework_name" \
+    "../Carthage/Build/iOS/$framework_name.framework/$framework_name"
+}
+
+function archive_project_iphoneos() {
   project_name=$1
   framework_name=$2
 
@@ -15,6 +26,11 @@ function archive_project() {
    -archivePath "$framework_name.framework-iphoneos.xcarchive"\
    SKIP_INSTALL=NO\
    BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+}
+
+function archive_project_iphonesimulator() {
+  project_name=$1
+  framework_name=$2
 
   # Archive iOS Simulator project.
   xcodebuild archive\
@@ -31,9 +47,6 @@ function create_xcframework() {
   project_name=$1
   framework_name=$2
 
-  # Archive Xcode project.
-  archive_project $project_name $framework_name
-
   # Create XCFramework from the archived project.
   xcodebuild -create-xcframework\
     -framework "$framework_name.framework-iphoneos.xcarchive/Products/Library/Frameworks/$framework_name.framework"\
@@ -48,25 +61,30 @@ function create_xcframework() {
 }
 
 function cleanup() {
-  rm -r *.xcframework
+  # rm -r *.xcframework
   rm -r *.xcarchive
 }
 
 # Install Google Maps SDK for iOS.
 carthage update
 
-# Create Build directory if not existing.
-if [ ! -d "$BUILD_DIRECTORY" ]; then
-  mkdir $BUILD_DIRECTORY
-fi
-
+rm -rf $BUILD_DIRECTORY
+mkdir $BUILD_DIRECTORY
 cd $BUILD_DIRECTORY
 
-create_xcframework "GoogleMaps" "GoogleMaps"
-create_xcframework "GoogleMaps" "GoogleMapsBase"
-create_xcframework "GoogleMaps" "GoogleMapsCore"
-create_xcframework "GoogleMaps" "GoogleMapsM4B"
-create_xcframework "GoogleMaps" "GooglePlaces"
+frameworks=("GoogleMaps" "GoogleMapsBase" "GoogleMapsCore" "GoogleMapsM4B" "GooglePlaces")
+for framework in "${frameworks[@]}"; do
+  archive_project_iphoneos "GoogleMaps" "$framework"
+done
+for framework in "${frameworks[@]}"; do
+  convert_frameworks_arm64_to_iphonesimulator "GoogleMaps" "$framework"
+done
+for framework in "${frameworks[@]}"; do
+  archive_project_iphonesimulator "GoogleMaps" "$framework"
+done
+for framework in "${frameworks[@]}"; do
+  create_xcframework "GoogleMaps" "$framework"
+done
 
 cleanup
 
