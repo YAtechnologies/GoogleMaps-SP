@@ -151,21 +151,21 @@
 /* Begin PBXFileReference section */
 		8A08AD0F253999110078DE66 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		8A08AD542539996C0078DE66 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
-		8A663F7D25397CE4000E9321 /* GoogleMaps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMaps; path = ../Carthage/Build/iOS/GoogleMaps.framework/GoogleMaps; sourceTree = "<group>"; };
+		8A663F7D25397CE4000E9321 /* GoogleMaps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMaps; path = "../Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/GoogleMaps"; sourceTree = "<group>"; };
 		8A663FE425397D2B000E9321 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		8A663FF225397D68000E9321 /* GoogleMapsBase */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsBase; path = ../Carthage/Build/iOS/GoogleMapsBase.framework/GoogleMapsBase; sourceTree = "<group>"; };
+		8A663FF225397D68000E9321 /* GoogleMapsBase */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsBase; path = "../Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/GoogleMapsBase"; sourceTree = "<group>"; };
 		8A663FFA25397D6F000E9321 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
 		8A663FFB25397D6F000E9321 /* GoogleMapsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsBase.h; sourceTree = "<group>"; };
 		8A663FFC25397D6F000E9321 /* GMSCompatabilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCompatabilityMacros.h; sourceTree = "<group>"; };
 		8A663FFD25397D6F000E9321 /* GMSCoordinateBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCoordinateBounds.h; sourceTree = "<group>"; };
 		8A663FFF25397D6F000E9321 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		8A66400A25397D7D000E9321 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		8A66400B25397D7D000E9321 /* GoogleMapsCore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsCore; path = ../Carthage/Build/iOS/GoogleMapsCore.framework/GoogleMapsCore; sourceTree = "<group>"; };
+		8A66400B25397D7D000E9321 /* GoogleMapsCore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsCore; path = "../Carthage/Build/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/GoogleMapsCore"; sourceTree = "<group>"; };
 		8A66401325397D90000E9321 /* GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
 		8A66401525397D90000E9321 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		8A66401625397D90000E9321 /* GoogleMapsM4B */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsM4B; path = ../Carthage/Build/iOS/GoogleMapsM4B.framework/GoogleMapsM4B; sourceTree = "<group>"; };
+		8A66401625397D90000E9321 /* GoogleMapsM4B */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsM4B; path = "../Carthage/Build/GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/GoogleMapsM4B"; sourceTree = "<group>"; };
 		8A66401F25397DA0000E9321 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		8A66403925397DA0000E9321 /* GooglePlaces */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GooglePlaces; path = ../Carthage/Build/iOS/GooglePlaces.framework/GooglePlaces; sourceTree = "<group>"; };
+		8A66403925397DA0000E9321 /* GooglePlaces */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GooglePlaces; path = "../Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/GooglePlaces"; sourceTree = "<group>"; };
 		8A6641102539828D000E9321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A66411D253982C0000E9321 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8A664124253982D0000E9321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -402,7 +402,7 @@
 				8A7107EA26526A8F00C2AD24 /* GoogleMaps.h */,
 			);
 			name = Headers;
-			path = Carthage/Build/iOS/GoogleMaps.framework/Headers;
+			path = "Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Headers";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A08AD1B2539994E0078DE66 /* Headers */ = {
@@ -434,7 +434,7 @@
 				8A71083F26526AE800C2AD24 /* GooglePlaces.h */,
 			);
 			name = Headers;
-			path = Carthage/Build/iOS/GooglePlaces.framework/Headers;
+			path = "Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Headers";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A663FE325397D2B000E9321 /* Modules */ = {
@@ -443,7 +443,7 @@
 				8A663FE425397D2B000E9321 /* module.modulemap */,
 			);
 			name = Modules;
-			path = Carthage/Build/iOS/GoogleMaps.framework/Modules;
+			path = "Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Modules";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A663FE525397D36000E9321 /* Resources */ = {
@@ -452,7 +452,7 @@
 				8A08AD0F253999110078DE66 /* GoogleMaps.bundle */,
 			);
 			name = Resources;
-			path = Carthage/Build/iOS/GoogleMaps.framework/Resources;
+			path = "Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A663FF925397D6F000E9321 /* Headers */ = {
@@ -464,7 +464,7 @@
 				8A663FFD25397D6F000E9321 /* GMSCoordinateBounds.h */,
 			);
 			name = Headers;
-			path = Carthage/Build/iOS/GoogleMapsBase.framework/Headers;
+			path = "Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Headers";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A663FFE25397D6F000E9321 /* Modules */ = {
@@ -473,7 +473,7 @@
 				8A663FFF25397D6F000E9321 /* module.modulemap */,
 			);
 			name = Modules;
-			path = Carthage/Build/iOS/GoogleMapsBase.framework/Modules;
+			path = "Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Modules";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A66400925397D7D000E9321 /* Modules */ = {
@@ -482,7 +482,7 @@
 				8A66400A25397D7D000E9321 /* module.modulemap */,
 			);
 			name = Modules;
-			path = Carthage/Build/iOS/GoogleMapsCore.framework/Modules;
+			path = "Carthage/Build/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Modules";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A66401225397D90000E9321 /* Headers */ = {
@@ -491,7 +491,7 @@
 				8A66401325397D90000E9321 /* GoogleMaps.h */,
 			);
 			name = Headers;
-			path = Carthage/Build/iOS/GoogleMapsM4B.framework/Headers;
+			path = "Carthage/Build/GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/Headers";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A66401425397D90000E9321 /* Modules */ = {
@@ -500,7 +500,7 @@
 				8A66401525397D90000E9321 /* module.modulemap */,
 			);
 			name = Modules;
-			path = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules;
+			path = "Carthage/Build/GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/Modules";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A66401E25397DA0000E9321 /* Modules */ = {
@@ -509,7 +509,7 @@
 				8A66401F25397DA0000E9321 /* module.modulemap */,
 			);
 			name = Modules;
-			path = Carthage/Build/iOS/GooglePlaces.framework/Modules;
+			path = "Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Modules";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A66403A25397DA0000E9321 /* Resources */ = {
@@ -518,7 +518,7 @@
 				8A08AD542539996C0078DE66 /* GooglePlaces.bundle */,
 			);
 			name = Resources;
-			path = Carthage/Build/iOS/GooglePlaces.framework/Resources;
+			path = "Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Resources";
 			sourceTree = SOURCE_ROOT;
 		};
 		8A66407425397E8C000E9321 /* Frameworks */ = {
@@ -1035,14 +1035,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = GoogleMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1053,10 +1052,11 @@
 				);
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Modules/module.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1067,14 +1067,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = GoogleMapsBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1084,9 +1083,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1097,14 +1097,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = GoogleMapsCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1114,9 +1113,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1127,14 +1127,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = GoogleMapsM4B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1144,9 +1143,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1157,14 +1157,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1174,9 +1173,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1305,10 +1305,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1322,10 +1322,11 @@
 				);
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Modules/module.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1336,10 +1337,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1353,10 +1354,11 @@
 				);
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Modules/module.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1367,10 +1369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1383,9 +1385,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1396,10 +1399,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1412,9 +1415,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1425,10 +1429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1441,9 +1445,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1454,10 +1459,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1470,9 +1475,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1483,10 +1489,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1499,9 +1505,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1512,10 +1519,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1528,9 +1535,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1541,10 +1549,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1557,9 +1565,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1570,10 +1579,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5PL9B9HNUS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1586,9 +1595,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.0.0;
-				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
+				MODULEMAP_FILE = "Carthage/Build/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Modules/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
