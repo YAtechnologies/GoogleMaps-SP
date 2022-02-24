@@ -19,7 +19,7 @@ function archive_project() {
 
   # Archive iOS Simulator project.
   xcodebuild archive\
-     -project "../$project_name.xcodeproj"\
+     -project "../$project_name-Sim.xcodeproj"\
      -scheme "$framework_name"\
      -configuration "Simulator Release"\
      -destination "generic/platform=iOS Simulator"\
