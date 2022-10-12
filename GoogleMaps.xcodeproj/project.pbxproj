@@ -151,6 +151,9 @@
 /* Begin PBXFileReference section */
 		8A08AD0F253999110078DE66 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		8A08AD542539996C0078DE66 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
+		8A53DD8A28F6D2BD00F4DF37 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8A53DD8B28F6D47C00F4DF37 /* make_xcframework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = make_xcframework.sh; sourceTree = "<group>"; };
+		8A53DD8C28F6D84000F4DF37 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8A663F7D25397CE4000E9321 /* GoogleMaps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMaps; path = ../Carthage/Build/iOS/GoogleMaps.framework/GoogleMaps; sourceTree = "<group>"; };
 		8A663FE425397D2B000E9321 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		8A663FF225397D68000E9321 /* GoogleMapsBase */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsBase; path = ../Carthage/Build/iOS/GoogleMapsBase.framework/GoogleMapsBase; sourceTree = "<group>"; };
@@ -548,6 +551,9 @@
 		8A8C8EE025387A0C00F5C247 = {
 			isa = PBXGroup;
 			children = (
+				8A53DD8C28F6D84000F4DF37 /* README.md */,
+				8A53DD8B28F6D47C00F4DF37 /* make_xcframework.sh */,
+				8A53DD8A28F6D2BD00F4DF37 /* Package.swift */,
 				8A8C8EEC25387A0C00F5C247 /* GoogleMaps */,
 				8A8C8EFD25387A3E00F5C247 /* GoogleMapsBase */,
 				8A8C8F0C25387A4B00F5C247 /* GoogleMapsCore */,
