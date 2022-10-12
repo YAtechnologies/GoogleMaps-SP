@@ -81,39 +81,11 @@ function build_xcproject_project() {
   cleanup
 }
 
-function create_google_xcframework() {
-  framework_name=$1
-
-  # Compress the XCFramework.
-  zip -r -X "$framework_name.xcframework.zip" "$framework_name.xcframework/"
-
-  # Save the SHA-256 checksum.
-  shasum -a 256 "$framework_name.xcframework.zip" >> checksum
-
-  # Move the XCFramework to build directory.
-  mv "$framework_name.xcframework.zip" "../../Build"
-}
-
-function package_google_xcframework() {
-  prepare
-
-  cd $CARTHAGE_XCFRAMEWORK_DIRECTORY
-
-  create_google_xcframework "GoogleMaps"
-  create_google_xcframework "GoogleMapsBase"
-  create_google_xcframework "GoogleMapsCore"
-  create_google_xcframework "GoogleMapsM4B"
-  create_google_xcframework "GooglePlaces"
-
-  mv "checksum" "../../Build"
-}
-
 function help() {
   # Display help.
-  echo "Syntax: make_scframework [-x|b|h]"
+  echo "Syntax: make_scframework [-x|h]"
   echo "options:"
   echo "x     Create an XCFramework by building the Xcode project."
-  echo "g     Create an XCFramework by zipping Google's prebuilt XCFramework."
   echo "h     Print this Help."
   echo
 }
@@ -127,12 +99,8 @@ while getopts ":hxg" flag; do
         build_xcproject_project
         print_completion_message
         exit;;
-      g) # Package Google's beta Carthage XCFramework
-        package_google_xcframework
-        print_completion_message
-        exit;;
      \?) # Invalid option
-         echo "Error: Invalid option"
-         exit;;
+        echo "Error: Invalid option"
+        exit;;
    esac
 done
