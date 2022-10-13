@@ -63,9 +63,8 @@
 		8A71081126526A9000C2AD24 /* GMSOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E026526A8E00C2AD24 /* GMSOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A71081326526A9000C2AD24 /* GMSStyleSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E226526A8E00C2AD24 /* GMSStyleSpan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A71081426526A9000C2AD24 /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E326526A8E00C2AD24 /* GMSCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A71081526526A9000C2AD24 /* GMSMapView+Premium.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E426526A8E00C2AD24 /* GMSMapView+Premium.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A71081626526A9000C2AD24 /* GMSPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E526526A8E00C2AD24 /* GMSPolyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A71081726526A9000C2AD24 /* GMSMapID+Premium.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E626526A8E00C2AD24 /* GMSMapID+Premium.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A71081726526A9000C2AD24 /* GMSMapID.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E626526A8E00C2AD24 /* GMSMapID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A71081826526A9000C2AD24 /* GMSPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E726526A8F00C2AD24 /* GMSPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A71081926526A9000C2AD24 /* GMSOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E826526A8F00C2AD24 /* GMSOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A71081A26526A9000C2AD24 /* GMSMutablePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7107E926526A8F00C2AD24 /* GMSMutablePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -192,9 +191,8 @@
 		8A7107E026526A8E00C2AD24 /* GMSOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOverlay.h; sourceTree = "<group>"; };
 		8A7107E226526A8E00C2AD24 /* GMSStyleSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSStyleSpan.h; sourceTree = "<group>"; };
 		8A7107E326526A8E00C2AD24 /* GMSCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraUpdate.h; sourceTree = "<group>"; };
-		8A7107E426526A8E00C2AD24 /* GMSMapView+Premium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSMapView+Premium.h"; sourceTree = "<group>"; };
 		8A7107E526526A8E00C2AD24 /* GMSPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolyline.h; sourceTree = "<group>"; };
-		8A7107E626526A8E00C2AD24 /* GMSMapID+Premium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSMapID+Premium.h"; sourceTree = "<group>"; };
+		8A7107E626526A8E00C2AD24 /* GMSMapID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapID.h; sourceTree = "<group>"; };
 		8A7107E726526A8F00C2AD24 /* GMSPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaView.h; sourceTree = "<group>"; };
 		8A7107E826526A8F00C2AD24 /* GMSOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOrientation.h; sourceTree = "<group>"; };
 		8A7107E926526A8F00C2AD24 /* GMSMutablePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMutablePath.h; sourceTree = "<group>"; };
@@ -368,12 +366,11 @@
 				8A7107DD26526A8E00C2AD24 /* GMSIndoorBuilding.h */,
 				8A71080226526A8F00C2AD24 /* GMSIndoorDisplay.h */,
 				8A7107F926526A8F00C2AD24 /* GMSIndoorLevel.h */,
-				8A7107E626526A8E00C2AD24 /* GMSMapID+Premium.h */,
+				8A7107E626526A8E00C2AD24 /* GMSMapID.h */,
 				8A7107F526526A8F00C2AD24 /* GMSMapLayer.h */,
 				8A7107F426526A8F00C2AD24 /* GMSMapStyle.h */,
 				8A71080B26526A9000C2AD24 /* GMSMapView.h */,
 				8A7107EF26526A8F00C2AD24 /* GMSMapView+Animation.h */,
-				8A7107E426526A8E00C2AD24 /* GMSMapView+Premium.h */,
 				8A71080026526A8F00C2AD24 /* GMSMarker.h */,
 				8A6DC50527834B6A00F9553C /* GMSMarkerAnimation.h */,
 				8A71080126526A8F00C2AD24 /* GMSMarkerLayer.h */,
@@ -650,7 +647,7 @@
 				8A71083426526A9000C2AD24 /* GMSSyncTileLayer.h in Headers */,
 				8A71082326526A9000C2AD24 /* GMSPanoramaService.h in Headers */,
 				8A71081026526A9000C2AD24 /* GMSGeometryUtils.h in Headers */,
-				8A71081726526A9000C2AD24 /* GMSMapID+Premium.h in Headers */,
+				8A71081726526A9000C2AD24 /* GMSMapID.h in Headers */,
 				8A71082E26526A9000C2AD24 /* GMSUISettings.h in Headers */,
 				8A71081826526A9000C2AD24 /* GMSPanoramaView.h in Headers */,
 				8A71080F26526A9000C2AD24 /* GMSGroundOverlay.h in Headers */,
@@ -662,7 +659,6 @@
 				8A71083226526A9000C2AD24 /* GMSMarkerLayer.h in Headers */,
 				8A71082926526A9000C2AD24 /* GMSPanoramaSource.h in Headers */,
 				8A71081626526A9000C2AD24 /* GMSPolyline.h in Headers */,
-				8A71081526526A9000C2AD24 /* GMSMapView+Premium.h in Headers */,
 				8A71082026526A9000C2AD24 /* GMSMapView+Animation.h in Headers */,
 				8A71082F26526A9000C2AD24 /* GMSGeocoder.h in Headers */,
 				8A71082626526A9000C2AD24 /* GMSMapLayer.h in Headers */,
@@ -1042,7 +1038,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1058,7 +1054,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
@@ -1074,7 +1070,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1089,7 +1085,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1104,7 +1100,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1119,7 +1115,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1134,7 +1130,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1149,7 +1145,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1164,7 +1160,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1179,7 +1175,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1312,7 +1308,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1327,7 +1323,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
@@ -1343,7 +1339,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1358,7 +1354,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
@@ -1374,7 +1370,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1388,7 +1384,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1403,7 +1399,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1417,7 +1413,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1432,7 +1428,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1446,7 +1442,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1461,7 +1457,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1475,7 +1471,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1490,7 +1486,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1504,7 +1500,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1519,7 +1515,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1533,7 +1529,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1548,7 +1544,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1562,7 +1558,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1577,7 +1573,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 060101;
+				CURRENT_PROJECT_VERSION = 060200;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1591,7 +1587,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1.1;
+				MARKETING_VERSION = 6.2.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
