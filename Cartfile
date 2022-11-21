@@ -1,2 +1,2 @@
-binary "https://dl.google.com/geosdk/GoogleMaps.json" == 7.1.0
-binary "https://dl.google.com/geosdk/GooglePlaces.json" == 7.1.0
+binary "https://dl.google.com/geosdk/GoogleMaps.json" == 7.2.0
+binary "https://dl.google.com/geosdk/GooglePlaces.json" == 7.2.0
