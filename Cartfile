@@ -1,2 +1,2 @@
-binary "https://dl.google.com/geosdk/GoogleMaps-8.0.0.tar.gz"
-binary "https://dl.google.com/geosdk/GooglePlaces-8.0.0.tar.gz"
+binary "https://dl.google.com/geosdk/GoogleMaps.json" == 8.0.0
+binary "https://dl.google.com/geosdk/GooglePlaces.json" == 8.0.0

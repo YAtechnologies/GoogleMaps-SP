@@ -42,7 +42,7 @@ let package = Package(
         .binaryTarget(
             name: "GoogleMaps",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMaps.xcframework.zip",
-            checksum: "ec7191b16f330a0dab3a84c8ea6b4ab4b0873db733a9aafb9fa1602e5a7268b3"
+            checksum: "d88dd3567378f8397afced3dea7815bff53b6c2712614712e1f29987a03ca284"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
@@ -62,7 +62,7 @@ let package = Package(
         .binaryTarget(
             name: "GooglePlaces",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GooglePlaces.xcframework.zip",
-            checksum: "19e0e81070d969de625d472d4d61852ffebbe449fc0f4838b8784baaca1580fa"
+            checksum: "aa119396a2df56f77eb25866fdbb625fd1f347b7eacd0ed9810164eb79b0a82d"
         )
     ]
 )
