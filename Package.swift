@@ -42,27 +42,27 @@ let package = Package(
         .binaryTarget(
             name: "GoogleMaps",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMaps.xcframework.zip",
-            checksum: "348821919708ede02e0b33336daabe6d6c0611e03ab45355bfaf87885bfccf32"
+            checksum: "ec7191b16f330a0dab3a84c8ea6b4ab4b0873db733a9aafb9fa1602e5a7268b3"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsBase.xcframework.zip",
-            checksum: "3e6d4d75132effddcc5c00202f1d6eeab8579cc5d75cf43025d2d71c739f41bc"
+            checksum: "9a60b252d7c7be3cb433496dd2a859c6d5580278fd441c9a49cec70da93dd9c5"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsCore.xcframework.zip",
-            checksum: "d0562aff2a0c183006889548bfd0187c72ddc988e70c1a480ca0e364b7d08c34"
+            checksum: "10c868f097e842e947c26aa0c7ba4b8c85d570bd285a66209a07035ee703790e"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsM4B.xcframework.zip",
-            checksum: "5a807ce813bacacc4a1d0c7d605d42b07edab77a9cb238703bdfdd4a4923bd18"
+            checksum: "65031bea560ed201c3da92ec97695ce1138eff0eca1596fca809af258cb6ce5c"
         ),
         .binaryTarget(
             name: "GooglePlaces",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GooglePlaces.xcframework.zip",
-            checksum: "03e0ad5884cbe70dc7db14bf8e1eaaa953152ed230283ba180bc2f5676b102cf"
+            checksum: "19e0e81070d969de625d472d4d61852ffebbe449fc0f4838b8784baaca1580fa"
         )
     ]
 )
