@@ -47,17 +47,17 @@ let package = Package(
         .binaryTarget(
             name: "GoogleMapsBase",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsBase.xcframework.zip",
-            checksum: "9a60b252d7c7be3cb433496dd2a859c6d5580278fd441c9a49cec70da93dd9c5"
+            checksum: "7e6137623e8d72c57a3a80e7dbbe1aefa3ff5b6a4c33e413063bafd60809ba2d"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsCore.xcframework.zip",
-            checksum: "10c868f097e842e947c26aa0c7ba4b8c85d570bd285a66209a07035ee703790e"
+            checksum: "ebf18c6f6f458c70fda85c40279b181a60fb9d865bbd190ee55ab23492f71d5e"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
             url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsM4B.xcframework.zip",
-            checksum: "65031bea560ed201c3da92ec97695ce1138eff0eca1596fca809af258cb6ce5c"
+            checksum: "e2692ba367da98cc4cf95469112dd3fa1f835e4913e48e0facc5cfb8127ce427"
         ),
         .binaryTarget(
             name: "GooglePlaces",
