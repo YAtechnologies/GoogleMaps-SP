@@ -1054,7 +1054,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
@@ -1085,7 +1085,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1115,7 +1115,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1145,7 +1145,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1175,7 +1175,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1323,7 +1323,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
@@ -1354,7 +1354,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMaps.framework/Modules/module.modulemap;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMaps;
@@ -1384,7 +1384,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1413,7 +1413,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsBase.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1442,7 +1442,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1471,7 +1471,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsCore.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1500,7 +1500,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1529,7 +1529,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GoogleMapsM4B.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1558,7 +1558,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1587,7 +1587,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 7.2.0;
+				MARKETING_VERSION = 7.3.0;
 				MODULEMAP_FILE = Carthage/Build/iOS/GooglePlaces.framework/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yassir.ios.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
